@@ -1,0 +1,24 @@
+<div id="container">
+
+  <div id="header-container">
+    <h1 id="header">Kalkulator binarny</h1>
+  </div>
+
+  <div id="input-container">
+    <input type="text" [value]="inputText" (keypress)="onKeyPress($event)" (keyup)="onKeyPress($event)" id="calculator-input">
+  </div>   
+
+  <div id="keyboard">
+    <button (click)="onClick('0')">0</button>
+    <button (click)="onClick('1')">1</button>                
+    <button (click)="saveNumber('0')">+</button>
+    <button (click)="saveNumber('1')">-</button>    
+    <button (click)="calculateResult()">=</button> 
+    <button (click)=reset()>Reset</button>               
+  </div>
+
+  <div id="result-container">
+    <p id="result">{{resultString}}</p>
+  </div>   
+
+</div>

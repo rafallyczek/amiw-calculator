@@ -1,0 +1,42 @@
+#container{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header-container{
+    background-color: #808080;
+    width: 300px;
+}
+#header{
+    margin-left: 10px;
+    text-align: center;
+}
+#input-container{
+    background-color: #808080;
+    width: 280px;
+    padding: 10px;
+}
+#calculator-input{
+    width: 260px;
+    padding: 10px;
+}
+#keyboard{
+    background-color: #808080;
+    width: 280px;
+    padding: 10px;
+}
+#keyboard > button{
+    font-size: 20px;
+    margin: 2px;
+}
+#result-container{
+    background-color: #808080;
+    width: 280px;
+    padding: 10px;
+}
+#result{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+
