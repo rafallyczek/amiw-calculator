@@ -1,3 +1,3 @@
-# Angular binary calculator
+# Binary calculator
 
 Simple binary calculator
