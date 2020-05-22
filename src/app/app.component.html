@@ -1,7 +1,7 @@
 <div id="container">
 
   <div id="header-container">
-    <h1 id="header">Kalkulator binarny</h1>
+    <h1 id="header">Binary Calculator</h1>
   </div>
 
   <div id="input-container">
@@ -14,10 +14,11 @@
     <button (click)="saveNumber('0')">+</button>
     <button (click)="saveNumber('1')">-</button>    
     <button (click)="calculateResult()">=</button> 
-    <button (click)=reset()>Reset</button>               
+    <button id="reset" (click)="reset()">Reset</button>               
   </div>
 
   <div id="result-container">
+    <p id="resultHeader">Result:</p>
     <p id="result">{{resultString}}</p>
   </div>   
 
