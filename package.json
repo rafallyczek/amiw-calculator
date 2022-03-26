@@ -23,7 +23,7 @@
     "serialize-javascript": "^3.1.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1",
-    "minimist": ">=1.2.3"
+    "minimist": ">=1.2.6"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.803.26",
