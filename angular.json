@@ -121,5 +121,8 @@
         }
       }
     }},
-  "defaultProject": "review"
+  "defaultProject": "review",
+  "cli": {
+    "analytics": "daa4b10a-76e7-44c2-82fe-adcd82db18da"
+  }
 }
